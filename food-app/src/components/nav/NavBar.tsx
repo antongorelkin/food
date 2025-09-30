@@ -4,12 +4,15 @@ import Youtube from "@/assets/icons/youtube.svg?react";
 import Vk from "@/assets/icons/vk.svg?react";
 import Telegram from "@/assets/icons/telegram.svg?react";
 import styles from "./navbar.module.scss";
+import { Link } from "react-router-dom";
 
 export function NavBar() {
 	return (
 		<nav className={styles.navbar}>
 			<div className={styles.logoContainer}>
-				<img className={styles.image} src={Logo} alt="логотип" />
+				<Link to="/">
+					<img className={styles.image} src={Logo} alt="логотип" />
+				</Link>
 				<button className={styles.menuBtn}>
 					<MenuBtn />
 				</button>
