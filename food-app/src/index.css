@@ -1,0 +1,72 @@
+/* ===================== */
+/*  CSS Reset / Normalize */
+/* ===================== */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Убираем стандартные списки */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Сбрасываем стили ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Сбрасываем стили кнопок и инпутов */
+button,
+input,
+textarea,
+select {
+  background: none;
+  border: none;
+  font: inherit;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Сбрасываем дефолтные стили таблиц */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Сбрасываем стандартный стиль для изображений */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Убираем дефолтные отступы у заголовков и параграфов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Минимальные стили для body */
+body {
+  line-height: 1;
+  font-family: sans-serif;
+  background: #fff;
+  color: #000;
+}
