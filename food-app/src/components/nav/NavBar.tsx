@@ -5,8 +5,19 @@ import Vk from "@/assets/icons/vk.svg?react";
 import Telegram from "@/assets/icons/telegram.svg?react";
 import styles from "./navbar.module.scss";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 export function NavBar() {
+	useEffect(() => {
+		fetch(
+			"https://fakerapi.it/api/v2/products?_quantity=1&_taxes=12&_categories_type=uuid"
+		)
+			.then((response) => response.json())
+			.then((data) => {
+				console.log(data);
+			});
+	}, []);
+
 	return (
 		<nav className={styles.navbar}>
 			<div className={styles.logoContainer}>

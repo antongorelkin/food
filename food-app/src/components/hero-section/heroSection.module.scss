@@ -1,0 +1,18 @@
+.hero {
+  background-image: url('../../assets/header-image.png');
+  background-repeat: no-repeat;
+  height: 1000px;
+  margin-bottom: 150px;
+}
+
+.heroTitle {
+  color: #fff;
+  font-size: 54px;
+  line-height: 140%;
+}
+
+.heroContent {
+  display: flex;
+  justify-content: flex-end;
+  padding: 626px 642px 150px 302px;
+}

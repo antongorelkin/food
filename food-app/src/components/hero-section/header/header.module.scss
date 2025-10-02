@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 100px 0 0;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  min-width: 460px;
+  padding: 10px 0 10px 0;
+  align-items: center;
+}
+
+.navItem {
+  color: #fff;
+  cursor: pointer;
+}
+
+.navBtn {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #b59571;
+}
