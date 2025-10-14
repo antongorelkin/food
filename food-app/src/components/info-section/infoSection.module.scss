@@ -1,0 +1,41 @@
+.info {
+  max-width: 1076px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.restaurant {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.restaurantSubtitle {
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.infoContent {
+  display: flex;
+  gap: 134px;
+  padding-left: 220px;
+}
+
+.infoTitle {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+}
+
+.infoDescription {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.infoDescription:not(:last-child) {
+  margin-bottom: 25px;
+}
